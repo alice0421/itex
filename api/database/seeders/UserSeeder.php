@@ -16,6 +16,7 @@ class UserSeeder extends Seeder
     {
         // 生徒
         DB::table('users')->insert([
+            'serial_id' => 's000001',
             'name' => '佐藤翔太',
             'email' => 'syota.sato@gmail.com',
             'password' => Hash::make('password'),
@@ -25,6 +26,7 @@ class UserSeeder extends Seeder
 
         // メンター
         DB::table('users')->insert([
+            'serial_id' => 'm000001',
             'name' => '鈴木太郎',
             'email' => 'taro.suzuki.mentor@gmail.com',
             'is_mentor' => true,
