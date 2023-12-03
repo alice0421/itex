@@ -27,8 +27,8 @@ class Handler extends ExceptionHandler
     /**
      * Convert an authentication exception into an unauthenticated response.
      *
-     * @param  \Illuminate\Http\Request  $request // WARNING: 型を付けるとオーバーライドが失敗するため、型はつけないように
-     * @param  \Illuminate\Auth\AuthenticationException  $exception
+     * @param  \Illuminate\Http\Request $request // WARNING: 型を付けるとオーバーライドが失敗するため、型はつけないように
+     * @param  \Illuminate\Auth\AuthenticationException $exception
      * @return \Illuminate\Http\JsonResponse
      */
     // NOTE: "401 Unauthenticated." をオーバーライド（throw AuthenticationExceptionで以下のjsonレスポンスを返す）

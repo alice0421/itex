@@ -14,7 +14,7 @@ class LoginController extends Controller
     /**
      * Handle the incoming request.
      * 
-     * @param LoginRequest
+     * @param LoginRequest $request
      * @return LoginResource
      * @throws AuthenticationException
      */
