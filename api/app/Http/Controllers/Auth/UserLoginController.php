@@ -4,12 +4,12 @@ declare(strict_types=1);
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Auth\LoginRequest;
-use App\Http\Resources\Auth\LoginResource;
+use App\Http\Requests\Auth\UserLoginRequest;
+use App\Http\Resources\Auth\UserLoginResource;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Support\Facades\Auth;
 
-class LoginController extends Controller
+class UserLoginController extends Controller
 {
     /**
      * Handle the incoming request.

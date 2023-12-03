@@ -4,12 +4,12 @@ declare(strict_types=1);
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Auth\RegisterRequest;
-use App\Http\Resources\Auth\RegisterResource;
+use App\Http\Requests\Auth\UserRegisterRequest;
+use App\Http\Resources\Auth\UserRegisterResource;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 
-class RegisterController extends Controller
+class UserRegisterController extends Controller
 {
     /**
      * Handle the incoming request.

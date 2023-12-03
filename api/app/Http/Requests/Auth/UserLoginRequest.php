@@ -5,7 +5,7 @@ namespace App\Http\Requests\Auth;
 
 use App\Http\Requests\ApiRequest;
 
-class LoginRequest extends ApiRequest
+class UserLoginRequest extends ApiRequest
 {
     /**
      * Get the validation rules that apply to the request.

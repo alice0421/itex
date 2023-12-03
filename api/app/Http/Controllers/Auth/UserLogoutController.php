@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Symfony\Component\HttpFoundation\Response;
 
-class LogoutController extends Controller
+class UserLogoutController extends Controller
 {
     /**
      * Handle the incoming request.

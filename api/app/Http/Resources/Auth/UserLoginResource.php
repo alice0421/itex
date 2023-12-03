@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Symfony\Component\HttpFoundation\Response;
 
-class RegisterResource extends JsonResource
+class UserLoginResource extends JsonResource
 {
     /**
      * The "data" wrapper that should be applied.
