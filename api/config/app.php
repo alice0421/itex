@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
@@ -163,6 +164,7 @@ return [
         /*
          * Application Service Providers...
          */
+        App\Providers\ApiErrorResponseServiceProvider::class, // Apiのエラーレスポンス
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
